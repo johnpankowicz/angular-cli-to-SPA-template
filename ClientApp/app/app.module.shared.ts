@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
-import { AppComponent } from './components/app/app.component';
+import { AppComponent } from './app.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        CounterComponent
     ],
     imports: [
         CommonModule,
